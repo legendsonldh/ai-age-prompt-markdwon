@@ -1,10 +1,15 @@
-# Tauri Apple Glass UI
+# Tauri Client Skills
 
-This is a reusable design language series for building Apple-inspired light glassmorphism interfaces in Tauri desktop applications.
+This repository contains reusable Skill documents for Tauri desktop client work.
 
-## Documents
+## Skill Entries
 
-- [SKILL.md](SKILL.md): Agent-facing entry point and workflow.
+- [TAURI_APPLE_GLASS_UI_SKILL.md](TAURI_APPLE_GLASS_UI_SKILL.md): Direct Skill entry for Apple-inspired Tauri UI development.
+- [SKILL.md](SKILL.md): Detailed Apple Glass UI Skill.
+- [tauri-client-build-packaging/SKILL.md](tauri-client-build-packaging/SKILL.md): Build and packaging Skill for macOS/Windows Tauri clients.
+
+## Apple Glass UI Documents
+
 - [DESIGN_LANGUAGE.md](DESIGN_LANGUAGE.md): Product feel, visual thesis, hierarchy, and anti-patterns.
 - [TOKENS.md](TOKENS.md): Color, typography, radius, shadow, blur, and reusable CSS utilities.
 - [COMPONENT_PATTERNS.md](COMPONENT_PATTERNS.md): App shell, main window, tray popup, cards, chips, modals, inputs, buttons, floating controls, and title bars.
@@ -13,7 +18,16 @@ This is a reusable design language series for building Apple-inspired light glas
 - [EXAMPLES.md](EXAMPLES.md): Copyable component recipes.
 - [REFERENCE_IMPLEMENTATION.md](REFERENCE_IMPLEMENTATION.md): Concrete style tokens, CSS utilities, and component class recipes from the original implementation.
 
-## Intended Use
+## Build Packaging Documents
+
+- [tauri-client-build-packaging/README.md](tauri-client-build-packaging/README.md): Build Skill index.
+- [tauri-client-build-packaging/PIPELINE.md](tauri-client-build-packaging/PIPELINE.md): Build pipeline and target mapping.
+- [tauri-client-build-packaging/MACOS_DMG.md](tauri-client-build-packaging/MACOS_DMG.md): macOS app and DMG packaging.
+- [tauri-client-build-packaging/WINDOWS_NSIS.md](tauri-client-build-packaging/WINDOWS_NSIS.md): Windows sidecar and NSIS packaging.
+- [tauri-client-build-packaging/SIDECAR_AND_VERSIONING.md](tauri-client-build-packaging/SIDECAR_AND_VERSIONING.md): Sidecar and version contracts.
+- [tauri-client-build-packaging/TROUBLESHOOTING.md](tauri-client-build-packaging/TROUBLESHOOTING.md): Build failure diagnosis.
+
+## Intended UI Use
 
 Use this series when a desktop utility should feel:
 

@@ -10,4 +10,4 @@ Start here:
 - [README.md](README.md)
 - [REFERENCE_IMPLEMENTATION.md](REFERENCE_IMPLEMENTATION.md)
 
-Use this together with [tauri-client-build-packaging/SKILL.md](tauri-client-build-packaging/SKILL.md) when the UI work also affects app icons, bundle metadata, window configuration, installers, or release packaging.
+Use this together with [../tauri-client-build-packaging/SKILL.md](../tauri-client-build-packaging/SKILL.md) when the UI work also affects app icons, bundle metadata, window configuration, installers, or release packaging.

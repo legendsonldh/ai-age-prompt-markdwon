@@ -8,6 +8,7 @@ This repository contains reusable Skill documents and reference patterns extract
 - [skills/tauri-apple-glass-ui/SKILL.md](skills/tauri-apple-glass-ui/SKILL.md): Detailed Apple Glass UI Skill.
 - [skills/tauri-client-build-packaging/SKILL.md](skills/tauri-client-build-packaging/SKILL.md): Build and packaging Skill for macOS/Windows Tauri clients.
 - [skills/go-react-admin-platform/SKILL.md](skills/go-react-admin-platform/SKILL.md): Full-stack Skill for Go/Gin/GORM backends with React/Vite admin frontends.
+- [skills/workspace-package-management/SKILL.md](skills/workspace-package-management/SKILL.md): Workspace dependency management Skill for Go, Rust, and npm/pnpm monorepos.
 
 ## Directory Layout
 
@@ -16,6 +17,7 @@ skills/
   tauri-apple-glass-ui/
   tauri-client-build-packaging/
   go-react-admin-platform/
+  workspace-package-management/
 ```
 
 ## Apple Glass UI Documents
@@ -47,6 +49,15 @@ skills/
 - [skills/go-react-admin-platform/FILES_RELEASES_AUDIT.md](skills/go-react-admin-platform/FILES_RELEASES_AUDIT.md): File, release, and audit patterns.
 - [skills/go-react-admin-platform/DEPLOYMENT_DOCKER.md](skills/go-react-admin-platform/DEPLOYMENT_DOCKER.md): Docker deployment patterns.
 - [skills/go-react-admin-platform/TROUBLESHOOTING.md](skills/go-react-admin-platform/TROUBLESHOOTING.md): Full-stack troubleshooting.
+
+## Workspace Package Management Documents
+
+- [skills/workspace-package-management/README.md](skills/workspace-package-management/README.md): Workspace package management Skill index.
+- [skills/workspace-package-management/GO_WORKSPACE.md](skills/workspace-package-management/GO_WORKSPACE.md): Go workspace patterns.
+- [skills/workspace-package-management/RUST_CARGO_WORKSPACE.md](skills/workspace-package-management/RUST_CARGO_WORKSPACE.md): Cargo workspace patterns.
+- [skills/workspace-package-management/PNPM_NPM_WORKSPACE.md](skills/workspace-package-management/PNPM_NPM_WORKSPACE.md): pnpm/npm workspace patterns.
+- [skills/workspace-package-management/CROSS_ECOSYSTEM_POLICY.md](skills/workspace-package-management/CROSS_ECOSYSTEM_POLICY.md): Cross-ecosystem policy.
+- [skills/workspace-package-management/TROUBLESHOOTING.md](skills/workspace-package-management/TROUBLESHOOTING.md): Workspace troubleshooting.
 
 ## Intended UI Use
 

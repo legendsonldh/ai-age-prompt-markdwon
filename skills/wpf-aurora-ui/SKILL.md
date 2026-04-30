@@ -40,6 +40,22 @@ Build professional Windows desktop UIs with Aurora:
 5. Use CommunityToolkit.Mvvm source generators (`[ObservableProperty]`, `[RelayCommand]`).
 6. Reference icons from `AuroraIcons.xaml` (shared geometry resources) or `ui:SymbolIcon`.
 
+## Public Repository
+
+Aurora 公共库以 git submodule 方式集成到主项目中：
+
+- **GitHub**：`https://github.com/legendsonldh/Aurora.git`
+- **SSH**：`git@github.com:legendsonldh/Aurora.git`
+- **引入方式**：`git submodule add git@github.com:legendsonldh/Aurora.git Aurora`
+- **NuGet 包名**：`CADE.Aurora`（内部引用，尚未发布到 NuGet.org）
+- **文档**：仓库内包含完整的 AuroraColors.xaml、AuroraSizes.xaml、Button.xaml、AuroraDataGrid.xaml 等资源字典
+
+项目通过 `.csproj` 的 `ProjectReference` 直接引用：
+
+```xml
+<ProjectReference Include="..\Aurora\CADE.Aurora.csproj" />
+```
+
 ## Reference Files
 
 - [AURORA_DESIGN_SYSTEM.md](AURORA_DESIGN_SYSTEM.md) — Complete design token reference (colors, sizes, spacing, typography, icons, opacity).

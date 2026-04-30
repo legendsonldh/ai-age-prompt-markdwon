@@ -47,6 +47,19 @@ Build professional Windows desktop UIs with Aurora:
 - [WPF_XAML_PATTERNS.md](WPF_XAML_PATTERNS.md) — WPF/XAML coding patterns: style resolution, resource dictionaries, data binding, MVVM with source generators.
 - [GUI_STANDARDS.md](GUI_STANDARDS.md) — Standardization rules, layout conventions, conditional compilation, and project settings.
 
+## Design Philosophy
+
+Aurora 的设计理念来源于以下几个方向：
+
+- **Microsoft Fluent Design**：主色调 `#0078D4`（标准 Fluent Blue），卡片式层级结构（SurfaceRaisedBackground 浮于 SecondaryBackground 之上），微妙边框与阴影，整体干净、通透的视觉语言。
+- **WPF-UI 库 (lepo.co)**：提供 `ui:Card`、`ui:SymbolIcon`、`ui:ThemesDictionary` 等现代 WinUI 风格控件，是 Aurora 的基础控件骨架。
+- **企业桌面应用的实用性**：Aurora 服务于工业级桌面工具——高密度 DataGrid 监控面板、实时数据可视化、键盘可访问的工具栏。形式追随功能，美观服务于效率。
+- **从重复中提炼一致性**：Aurora 并非从零设计的系统，而是从 ControlPanel、DataBrowser、Telescope、VGPM、ConfigEditor 五个项目中提取公共样式后抽象而来。每个 token 都经过真实产品验证，不是空中楼阁。
+- **.NET 10 + Windows Native**：直接面向 `net10.0-windows`，利用 WPF 原生渲染引擎，通过 P/Invoke 与原生 C++ 模块（如 LicenseManager）互操作。不做跨平台抽象层，专注于 Windows 桌面体验的深度优化。
+- **干净专业的 Windows 桌面风格**：遵循经典 Windows 桌面 UI 惯例，同时通过 Fluent 启发的设计令牌进行现代化——不过度设计，不追求消费级动效，保持专业工具应有的稳重与清晰。
+
+核心原则：**一套 token，五个项目，一个来源**。
+
 ## Non-Negotiables
 
 - Never hardcode Width, Height, Margin, Padding, FontSize, or CornerRadius — always use Aurora tokens.
